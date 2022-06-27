@@ -7,6 +7,7 @@ import './Sidebar.css';
 import { SearchOutlined } from '@material-ui/icons';
 import SidebarChat from './SidebarChat';
 
+
 function Sidebar() {
   return (
     <div className="sidebar">
@@ -38,10 +39,9 @@ function Sidebar() {
             <SidebarChat />
             <SidebarChat />
             <SidebarChat />
-            <SidebarChat />
         </div>
     </div>
-  )
+  );
 }
 
 export default Sidebar;
